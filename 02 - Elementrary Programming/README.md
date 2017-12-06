@@ -1,5 +1,5 @@
 ## Elementary Programming
-### Chapter Objectives  
+### Objectives  
 
 - To write programs that perform simple computations.
 - To obtain input from a program’s user by using the input function.

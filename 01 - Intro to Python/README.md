@@ -1,5 +1,5 @@
 ## Introduction to Computers, Programs, and Python
-### Chapter Objectives
+### Objectives
 - To demonstrate a basic understanding of computer hardware, programs, and operating systems.
 - To describe the history of Python.
 - To explain the basic syntax of a Python program.
