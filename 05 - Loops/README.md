@@ -55,10 +55,10 @@ Write a program that compares the results of the summation of the series:
 #### 0526 (Sum a series) 
 Write a program to sum the following series:  
 1/3 + 3/5 + 5/7 + 7/9 + 9/11 + 11/13 + ... + 95/97 + 97/99
-#### 0527 5.27 (Compute pi)
+#### 0527 (Compute pi)
 You can approximate by using the following series:
 pi = 4(1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + ... + (-1)<sup>(i+1)</sup> / (2i - 1)  
-Write a program that displays the $pi$ value for i = 10000, 20000, ..., and 100000.
+Write a program that displays the pi value for i = 10000, 20000, ..., and 100000.
 #### 0528 (Compute e) 
 You can approximate e by using the following series:
 e = 1 + 1/1! + 1/2! + 1/3! + 1/4! + ... + 1/i!  
