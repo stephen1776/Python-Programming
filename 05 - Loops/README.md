@@ -1,10 +1,10 @@
-# 04 - Loops
+# 05 - Loops
 #### 0514 (Find the smallest n such that n<sup>2</sup> > 12,000)
 Use a while loop to find the smallest integer n such that n<sup>2</sup> is greater than 12,000.
 #### 0515 (Find the largest n such that n<sup>3</sup> < 12,000)
 Use a while loop to find the largest integer n such that n<sup>3</sup> is less than 12,000.
 #### 0516 (Compute the greatest common divisor)
-Write a program that prompts the user to enter two positive integersand displays the gcd.
+Write a program that prompts the user to enter two positive integers and displays the gcd.
 #### 0518 (Find the factors of an integer)
 Write a program that reads an integer and displays all its smallest factors, also known as prime factors.
 #### 0520 (Display four patterns using loops) 
@@ -84,5 +84,5 @@ In business applications, you are often asked to compute the mean and standard d
 simply the average of the numbers. The standard deviation is a statistic that tells
 you how tightly all the various data are clustered around the mean in a set of data.  
 Write a program that prompts the user to enter ten numbers, and displays the mean and standard deviations
-of these numbers
+of these numbers.
 
