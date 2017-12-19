@@ -1,7 +1,7 @@
 '''
-6.24 (Palindromic prime) A palindromic prime is a prime number that is also palindromic.
-For example, 131 is a prime and also a palindromic prime, as are 313 and
-757. Write a program that displays the first 100 palindromic prime numbers. Display
+6.25 (Emirp) An emirp ( prime spelled backward) is a nonpalindromic prime number
+whose reversal is also a prime. For example, both 17 and 71 are prime numbers, so
+17 and 71 are emirps. Write a program that displays the first 100 emirps. Display
 10 numbers per line.
 '''
 
@@ -17,9 +17,9 @@ def isPrime(number):
     return True  # number is prime
 
 
-# Return the reversal of an integer, i.e. reverse(456) returns 654
-def isPalindrome(number):
-    return number == reverse(number)
+
+def isEmirp(number):
+    return number != reverse(number) and isPrime(reverse(number))
 
 
 # Return the reversal of an integer, i.e. reverse(456) returns 654
@@ -33,13 +33,15 @@ def reverse(number):
     return result
 
 
+
+
 def main():
     count = 1
 
     i = 2
     while count <= 100:
-        # Display each number in five positions
-        if isPrime(i) and isPalindrome(i):
+
+        if isPrime(i) and isEmirp(i):
             print(i, end=" ")
 
             if count % 10 == 0: # 10 primes per line

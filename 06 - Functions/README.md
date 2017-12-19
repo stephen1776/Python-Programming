@@ -72,12 +72,38 @@ Write a function that returns m(i) for a given i and write a test program that d
 A palindromic prime is a prime number that is also palindromic.  
 For example, 131 is a prime and also a palindromic prime, as are 313 and
 757. Write a program that displays the first 100 palindromic prime numbers. Display
-10 numbers per line and align the numbers properly, as follows:  
-2 3 5 7 11 101 131 151 181 191  
-313 353 373 383 727 757 787 797 919 929
+10 numbers per line.
 
-####
+#### 0625 (Emirp) 
+An emirp ( prime spelled backward) is a nonpalindromic prime number
+whose reversal is also a prime. For example, both 17 and 71 are prime numbers, so
+17 and 71 are emirps. Write a program that displays the first 100 emirps. Display
+10 numbers per line.
 
+#### 0626 (Mersenne prime) 
+A prime number is called a Mersenne prime if it can be written
+in the form for some positive integer p. Write a program that finds all
+Mersenne primes with p <= 19 and displays the output as follows:
+p 2^p - 1
+2 3
+3 7
+5 31
+...
+
+#### 0627 (Twin primes) 
+Twin primes are a pair of prime numbers that differ by 2. For example,
+3 and 5, 5 and 7, and 11 and 13 are twin primes. Write a program to find all
+twin primes less than 1,000. Display the output as follows:
+(3, 5)  
+(5, 7)  
+...
+
+#### 0635 (Compute the probability)
+Generate 10,000 uppercase letters and count the occurrence of A.
+
+#### 0636 (Generate random characters) 
+Print 100 uppercase letters and then 100 single digits, printing ten
+per line.
 
 
 
